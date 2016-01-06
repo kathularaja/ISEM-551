@@ -1,0 +1,50 @@
+
+<Rajashekar Kathula>
+
+<html>
+<head>
+<style>
+body {
+    background-color: #d0e4fe;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>My ISEM-551 Project-2</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+
+<p>Happy Morning...! Naveen Allu and Baba.</p>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+
+<div ng-app="">
+ 	<p>First Name : <input type="text" ng-model="name"> Last Name : <input type="text" ng-model="last"></p>
+ 	
+	<h1>Hello {{name}}{{last}}</h1>
+
+</div>
+
+
+
+
+
+</script>
+
+</body>
+</html>
